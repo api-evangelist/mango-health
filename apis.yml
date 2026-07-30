@@ -1,4 +1,16 @@
 aid: mango-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mango-health.png
 name: Mango Health
 description: Mango Health is a company surfaced as a portfolio company of bullpen-capital and added to
   the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -24,3 +36,11 @@ maintainers:
 common:
 - type: Website
   url: https://www.mangohealth.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Domain mangohealth.com registered (GoDaddy, expires 2027) but does not resolve
+    — no A/AAAA/MX records, no live website, no API/docs/developer portal. Company
+    appears defunct/acquired. No API surface to enrich; nothing fabricated.'
